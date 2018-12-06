@@ -528,7 +528,7 @@ var zoomPlugin = {
 			var rectWidth = endX - startX;
 
 
-			ctx.fillStyle = 'rgba(225,225,225,0.3)';
+			ctx.fillStyle = 'rgba(157, 187, 234, 1)';
 			ctx.lineWidth = 5;
 			ctx.fillRect(startX, yAxis.top, rectWidth, yAxis.bottom - yAxis.top);
 		}
